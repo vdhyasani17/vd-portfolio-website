@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Vasista Dhyasani</h1>
+        <h1 className='text-sky-500'>Vasista Dhyasani</h1>
       </div>
       <p>
         This is my portfolio website
