@@ -36,7 +36,7 @@ const elements = [
 const LinksCard = () => {
     return (
         <div>
-            <div className='card bg-gray-500 transition rounded-lg flex flex-col'>
+            <div className='card bg-slate-700/40 border-1 border-yellow-500/20 transition rounded-lg flex flex-col'>
                 {elements.map(e => <a
                     href={e.link}
                     target="_blank"

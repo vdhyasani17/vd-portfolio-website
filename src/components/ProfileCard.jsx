@@ -2,9 +2,8 @@ import React from 'react'
 
 const ProfileCard = () => {
     return (
-        <div className='relative'>
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(234,179,8,0.08),rgba(15,23,42,0.7))] animate-pulse opacity-50"></div>
-            <div className="card bg-gray-500 rounded-lg 
+        <div className='relative rounded-lg border-1 border-yellow-500/20'>
+            <div className="card bg-slate-700/40 rounded-lg 
                 flex flex-col items-center justify-center">
                 <img className="rounded-full w-36 mb-3" src="/linkedin-profile-photo.jpeg" alt="Profile photo" />
                 <div className='z-10 cursor-pointer'>
