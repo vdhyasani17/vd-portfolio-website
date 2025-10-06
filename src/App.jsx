@@ -2,18 +2,19 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ProfileCard from './components/ProfileCard'
+import LinksCard from './components/LinksCard'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <h1 className='text-sky-500'>Vasista Dhyasani</h1>
+      <div className='bg-slate-800/30 backdrop-blur-md rounded-2xl p-8 border border-yellow-900/20 shadow-2xl animate-fade-in hover:border-yellow-700/20 transition-all duration-300 hover:shadow-3xl grid gap-8'>
+        <ProfileCard />
+        <LinksCard />
       </div>
-      <p>
-        This is my portfolio website
-      </p>
+
     </>
   )
 }
