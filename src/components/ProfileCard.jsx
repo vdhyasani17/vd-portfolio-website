@@ -5,7 +5,7 @@ const ProfileCard = () => {
         <div className='relative rounded-lg border-1 border-yellow-500/20'>
             <div className="card bg-slate-700/40 rounded-lg 
                 flex flex-col items-center justify-center">
-                <img className="rounded-full w-36 mb-3" src="/linkedin-profile-photo.jpeg" alt="Profile photo" />
+                <img className="rounded-full w-36 mb-3 border-yellow-400/20" src="/profile-photo.jpeg" alt="Profile photo" />
                 <div className='z-10 cursor-pointer'>
                     <h2 className="text-white text-4xl font-semibold transition hover:text-amber-300">Vasista Dhyasani</h2>
                 </div>
